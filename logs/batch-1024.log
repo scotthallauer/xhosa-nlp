@@ -1,0 +1,43 @@
+NGRAM_SIZE = 6
+EMBEDDING_DIM = 10
+BATCH_SIZE = 1024
+INITIAL_LEARNING_RATE = 0.1
+
+Start Training
+| epoch 1 | 200/ 641 batches | lr 0.1000 | ms/batch 33.57 | loss 10.62 | ppl 42003.11
+| epoch 1 | 400/ 641 batches | lr 0.1000 | ms/batch 33.42 | loss 10.29 | ppl 29682.09
+| epoch 1 | 600/ 641 batches | lr 0.1000 | ms/batch 33.35 | loss 10.12 | ppl 25000.64
+-------------------------------------------------------------------
+| end of epoch 1 | time: 49.16s | valid loss 9.28 | valid ppl 10814.36
+-------------------------------------------------------------------
+Start Training
+| epoch 2 | 200/ 641 batches | lr 0.0900 | ms/batch 33.34 | loss 9.97 | ppl 21460.39
+| epoch 2 | 400/ 641 batches | lr 0.0900 | ms/batch 33.31 | loss 9.85 | ppl 19053.47
+| epoch 2 | 600/ 641 batches | lr 0.0900 | ms/batch 33.32 | loss 9.74 | ppl 17116.00
+-------------------------------------------------------------------
+| end of epoch 2 | time: 49.09s | valid loss 8.90 | valid ppl 7400.72
+-------------------------------------------------------------------
+Start Training
+| epoch 3 | 200/ 641 batches | lr 0.0810 | ms/batch 33.39 | loss 9.64 | ppl 15358.14
+| epoch 3 | 400/ 641 batches | lr 0.0810 | ms/batch 33.38 | loss 9.56 | ppl 14266.59
+| epoch 3 | 600/ 641 batches | lr 0.0810 | ms/batch 33.34 | loss 9.50 | ppl 13450.83
+-------------------------------------------------------------------
+| end of epoch 3 | time: 49.75s | valid loss 8.68 | valid ppl 5906.28
+-------------------------------------------------------------------
+Start Training
+| epoch 4 | 200/ 641 batches | lr 0.0729 | ms/batch 33.33 | loss 9.44 | ppl 12589.37
+| epoch 4 | 400/ 641 batches | lr 0.0729 | ms/batch 33.32 | loss 9.39 | ppl 12001.47
+| epoch 4 | 600/ 641 batches | lr 0.0729 | ms/batch 33.36 | loss 9.35 | ppl 11510.71
+-------------------------------------------------------------------
+| end of epoch 4 | time: 49.82s | valid loss 8.54 | valid ppl 5165.62
+-------------------------------------------------------------------
+Start Training
+| epoch 5 | 200/ 641 batches | lr 0.0656 | ms/batch 33.37 | loss 9.31 | ppl 11141.30
+| epoch 5 | 400/ 641 batches | lr 0.0656 | ms/batch 33.36 | loss 9.27 | ppl 10613.34
+| epoch 5 | 600/ 641 batches | lr 0.0656 | ms/batch 33.34 | loss 9.24 | ppl 10382.00
+-------------------------------------------------------------------
+| end of epoch 5 | time: 50.10s | valid loss 8.43 | valid ppl 4632.19
+-------------------------------------------------------------------
+=========================================================================================
+| End of training | test loss 8.45 | test ppl 4696.94
+=========================================================================================
